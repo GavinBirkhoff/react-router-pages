@@ -1,0 +1,52 @@
+{
+  "name": "react-router-pages",
+  "version": "1.0.0",
+  "description": "a react-router-pages for react router",
+  "main": "build/react-router-pages.cjs.js",
+  "module": "build/react-router-pages.es.js",
+  "jsnext:main": "build/react-router-pages.es.js",
+  "types": "types/index.d.ts",
+  "files": [
+    "build",
+    "types"
+  ],
+  "scripts": {
+    "build": "babel-node --presets=@babel/preset-env ./config/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GavinBirkhoff/react-router-pages.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GavinBirkhoff/react-router-pages/issues"
+  },
+  "homepage": "https://github.com/GavinBirkhoff/react-router-pages#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/node": "^7.10.5",
+    "@babel/plugin-transform-typescript": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "@types/node": "^14.0.23",
+    "@types/react": "^16.9.43",
+    "@types/react-dom": "^16.9.8",
+    "fs-extra": "^9.0.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.22.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-typescript2": "^0.27.1",
+    "rollup-plugin-uglify": "^6.0.4",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "react-loadable": "^5.5.0"
+  }
+}
